@@ -14,13 +14,13 @@ public class Main {
      * @param args стандартные аргументы командной строки
      */
     public static void main(String[] args) {
-        int result = OtherClass.add(24, 12);
+        int result = OtherClass.add(2, 2);
         System.out.println(Decorator.decorate(result));
-        result = OtherClass.sub(24, 12);
+        result = OtherClass.sub(2, 2);
         System.out.println(Decorator.decorate(result));
-        result = OtherClass.mul(24, 12);
+        result = OtherClass.mul(2, 2);
         System.out.println(Decorator.decorate(result));
-        result = OtherClass.div(24, 12);
+        result = OtherClass.div(2, 2);
         System.out.println(Decorator.decorate(result));
     }
 }
